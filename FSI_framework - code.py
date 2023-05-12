@@ -640,7 +640,7 @@ if __name__ == "__main__":
     tt5 = (pd.read_csv(path1 + 'Protein-Protein similarity by PPI - Cosine index.csv', header = None)).to_numpy()
     tt6 = (pd.read_csv(path1 + 'Protein-Protein similarity by PPI - Jaccard index.csv', header = None)).to_numpy()
     tt7 = (pd.read_csv(path1 + 'Protein-Protein similarity by Sequence - MaxMinnormalize_global.csv', header = None)).to_numpy()
-    tt8 = (pd.read_csv(path1 + 'Protein-Protein similarity by sequence - SW_normalize_local.csv', header = None)).to_numpy()
+    tt8 = (pd.read_csv(path1 + 'Protein-Protein similarity by Sequence - SW_normalize_local.csv', header = None)).to_numpy()
     
     drug_target_matrix = (pd.read_csv(path1 + 'drug-target_1517_862.csv', header = None)).to_numpy()
     dt_list_with_class = (pd.read_csv(path1 + 'list_dt_class.csv', header = None)).to_numpy()
